@@ -1,3 +1,4 @@
+import ConditionalRendering from "./ConditionalRendering";
 import ImportingAndExportingComponents from "./ImportingAndExportingComponents";
 import JavaScriptInJSXwithCurlyBraces from "./JavaScriptInJSXwithCurlyBraces";
 import PassingPropsToAComponent from "./PassingPropsToAComponent";
@@ -12,6 +13,7 @@ function App() {
 			<WritingMarkupWithJSX />
 			<JavaScriptInJSXwithCurlyBraces />
 			<PassingPropsToAComponent />
+			<ConditionalRendering />
 		</>
 	);
 }
