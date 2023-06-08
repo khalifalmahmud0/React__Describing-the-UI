@@ -1,4 +1,5 @@
 import ImportingAndExportingComponents from "./ImportingAndExportingComponents";
+import WritingMarkupWithJSX from "./WritingMarkupWithJSX";
 import YourFirstComponent from "./YourFirstComponent";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
 		<>
 			<YourFirstComponent />
 			<ImportingAndExportingComponents />
+			<WritingMarkupWithJSX />
 		</>
 	);
 }
