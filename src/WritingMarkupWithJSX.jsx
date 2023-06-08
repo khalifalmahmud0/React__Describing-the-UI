@@ -1,3 +1,5 @@
+import TodoList from "./WritingMarkupWithJSX/WritingMarkupWithJSX";
+
 export default function WritingMarkupWithJSX() {
 	return (
 		<>
@@ -13,6 +15,8 @@ export default function WritingMarkupWithJSX() {
 				wrapping them into an array. This explains why you also can’t return two
 				JSX tags without wrapping them into another tag or a Fragment.
 			</span>
+			<br />
+			<TodoList />
 		</>
 	);
 }
